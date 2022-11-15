@@ -10,16 +10,16 @@ If two users input the same answers, they should receive the same result.
 Make sure to check off your items as you complete them. [ ] → [x]
 
 ## Planning
-- [ ] Review your Starter Code and make sure you understand what code has already been written for you.
+- [x] Review your Starter Code and make sure you understand what code has already been written for you.
 
 ## Set-Up
-- [ ] Fork your own copy of the repl.
-- [ ] Double-check that you are signed in with your GitHub account.
+- [x] Fork your own copy of the repl.
+- [x] Double-check that you are signed in with your GitHub account.
 
 ## HTML
-1. [ ] Update the header for quiz with your planned idea 😊
-2. [ ] Update the cover photo with one that makes sense.
-3. [ ] Update the questions for your quiz. Be sure to have AT LEAST three to ask the user. Add more questions if you want!
+1. [x] Update the header for quiz with your planned idea 😊
+2. [x] Update the cover photo with one that makes sense.
+3. [x] Update the questions for your quiz. Be sure to have AT LEAST three to ask the user. Add more questions if you want!
 
 ## JS
 
