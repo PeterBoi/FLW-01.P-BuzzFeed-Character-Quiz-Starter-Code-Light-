@@ -34,7 +34,7 @@ Make sure to check off your items as you complete them. [ ] → [x]
 </br>
 
 5. Next, we need to declare variables for values we'll set later. You'll need one for:
-    - [ ] an image source
+    - [x] an image source
     - [x] a result
     - [x] a score for question 1
     - [x] a score for question 2
@@ -61,7 +61,7 @@ Make sure to check off your items as you complete them. [ ] → [x]
 10. [x] Declare a variable for the total score of the quiz and set it equal to the sum of each question score.
 </br>
 
-11. [ ] Create a conditional statement for the result to the quiz based on the total score. Using string interpolation, display these to the page:
+11. [x] Create a conditional statement for the result to the quiz based on the total score. Using string interpolation, display these to the page:
       - the result
       - an image that corresponds
       - a message to go with it.
@@ -75,10 +75,10 @@ The image source should be one that corresponds to the result. Say the result is
 
       
 ## Wrap-Up (everyday)
-- [ ] Save your changes and push to GitHub
-- [ ] Submit your project link to the Project Submission form.
+- [x] Save your changes and push to GitHub
+- [x] Submit your project link to the Project Submission form.
 
 
 ## Extensions
 - [ ] Update the HTML and CSS to reflect your own style.
-- [ ] Add more questions to your quiz.
+- [x] Add more questions to your quiz.
