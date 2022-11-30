@@ -29,55 +29,68 @@ function buzzfeedQuiz() {
     let userInput2 = q2.value;
     let userInput3 = q3.value;
     let userInput4 = q4.value;
-
-
-
+    userInput1 = userInput1.toLowerCase();
+    console.log(userInput1);
+    userInput2 = userInput2.toLowerCase();
+    console.log(userInput2);
+    userInput3 = userInput3.toLowerCase();
+    console.log(userInput3);
+    userInput4 = userInput4.toLowerCase();
+    console.log(userInput4);
 
     // task 7: create a conditional statement for the responses to Question 1 based on the user input.
-    if (userInput1 === "Flight") {
+    if (userInput1 === "flight") {
       result1 = 2;
     }
-    else if (userInput1 === "Electricity") {
+    else if (userInput1 === "electricity") {
       result1 = 6;
     }
-    else if (userInput1 === "Super Regeneration") {
+    else if (userInput1 === "super regeneration") {
       result1 = 8;
     }
-    else if (userInput1 === "Iron Suit") {
+    else if (userInput1 === "iron suit") {
       result1 = 10;
+    } else {
+      result1 = 0;
     }
     console.log(result1);
-    if (userInput2 === "Guardians Of The Galaxy") {
+    if (userInput2 === "guardians of the galaxy") {
       result2 = 2;
     }
-    else if (userInput2 === "Fantastic Four") {
+    else if (userInput2 === "fantastic four") {
       result2 = 6;
     }
-    else if (userInput2 === "X-Men") {
+    else if (userInput2 === "x-men") {
       result2 = 8;
     }
-    else if (userInput2 === "Avengers") {
+    else if (userInput2 === "avengers") {
       result2 = 10;
+    } else {
+      result2 = 0;
     }
     console.log(result2);
-    if (userInput3 === "Venom") {
+    if (userInput3 === "venom") {
       result3 = 2;
-    } else if (userInput3 === "Doctor Doom") {
+    } else if (userInput3 === "doctor doom") {
       result3 = 6;
-    } else if (userInput3 === "Wolverine") {
+    } else if (userInput3 === "wolverine") {
       result3 = 8;
-    } else if (userInput3 === "Iron Man") {
+    } else if (userInput3 === "iron man") {
       result3 = 10;
+    } else {
+      result3 = 0;
     }
     console.log(result3);
-    if (userInput4 === "Fire") {
+    if (userInput4 === "fire") {
       result4 = 2;
-    } else if (userInput4 === "Silver Bullet") {
+    } else if (userInput4 === "silver bullet") {
       result4 = 6;
-    } else if (userInput4 === "Electricity") {
+    } else if (userInput4 === "electricity") {
       result4 = 8;
-    } else if (userInput4 === "Magic") {
+    } else if (userInput4 === "magic") {
       result4 = 10;
+    } else {
+      result4 = 0;
     }
     console.log(result4);
     // task 10: declare a variable for the total score of the quiz and set it equal to the sum of each question score.
@@ -116,7 +129,7 @@ function buzzfeedQuiz() {
       displayResult.insertAdjacentHTML('beforeend', message);
       displayResult.insertAdjacentHTML('afterend', image4);
     }
-    else if (totalScore <= 8 && totalScore >= 1) {
+    else if (totalScore >= 8) {
       displayResult.innerHTML = `<h1>Your Marvel Character is The Thing</h1>`;
       let score = `<p>You scored ${totalScore}</p>`;
       displayResult.insertAdjacentHTML('beforeend', score);
@@ -124,6 +137,12 @@ function buzzfeedQuiz() {
       displayResult.insertAdjacentHTML('beforeend', message);
       displayResult.insertAdjacentHTML('afterend', image5);
     }
-
+    else if (totalScore <= 7) {
+      displayResult.innerHTML = `<h1>Your Marvel Character is Undetermined</h1>`;
+      let score = `<p>You scored ${totalScore}</p>`;
+      displayResult.insertAdjacentHTML('beforeend', score);
+      let message = `<p>Error you might have entered an incorret answer or spelled something incorrectly. Please take the quiz again but be sure to spell the answer choice correctly</p>`;
+      displayResult.insertAdjacentHTML('beforeend', message);
+    }
   };
 }
