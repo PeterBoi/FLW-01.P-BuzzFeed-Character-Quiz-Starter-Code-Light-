@@ -80,5 +80,5 @@ The image source should be one that corresponds to the result. Say the result is
 
 
 ## Extensions
-- [ ] Update the HTML and CSS to reflect your own style.
+- [x] Update the HTML and CSS to reflect your own style.
 - [x] Add more questions to your quiz.

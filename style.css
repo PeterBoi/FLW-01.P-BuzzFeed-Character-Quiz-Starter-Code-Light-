@@ -4,6 +4,10 @@ html, body {
   font-family: 'Slabo 27px', serif;
 }
 
+body {
+  background-color: green;
+}
+
 .header {
   font-family: 'Slabo 27px', serif;
   display: flex;
@@ -42,8 +46,31 @@ button {
   color: white;
   background-color: #eb2642;
   font-size: 40px;
-  border-radius: 25px;
+  border-radius: 70px;
   border:3px groove black;
   font-family: monospace;
   padding: 20px;
 }
+
+ul {
+  border:5px groove blue;
+  margin-right: 1150px;
+  background-color: brown;
+}
+
+li {
+  color: yellow;
+}
+
+h1 {
+  color: #864ad4;
+}
+
+h2 , h3 {
+  color: #4b1111;
+}
+
+input {
+  border: 3px solid brown;
+}
+
