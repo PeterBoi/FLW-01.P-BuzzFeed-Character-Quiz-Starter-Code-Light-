@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  background-color: green;
+  background-color: lightblue;
 }
 
 .header {
@@ -53,24 +53,24 @@ button {
 }
 
 ul {
-  border:5px groove blue;
+  border:5px groove #3d00ff;
   margin-right: 1050px;
-  background-color: brown;
+  background-color: lavender;
 }
 
 li {
-  color: yellow;
+  color: black;
 }
 
 h1 {
-  color: #864ad4;
+  color: darkblue;
 }
 
 h2 , h3 {
-  color: #4b1111;
+  color: black;
 }
 
 input {
-  border: 3px solid brown;
+  border: 3px solid grey;
 }
 
